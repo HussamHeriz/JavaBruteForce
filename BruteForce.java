@@ -16,7 +16,7 @@ public class BruteForce {
         
         if(args[0].equals("help"))
         {
-            System.out.println("java Assignment1 {length} {characters seperated by ,} {output file} ");
+            System.out.println("java BruteForce {length} {characters seperated by ,} {output file} ");
         }
         else {
             length = Integer.parseInt(args[0]);

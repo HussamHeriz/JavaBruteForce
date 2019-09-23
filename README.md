@@ -15,7 +15,8 @@
 ### Example
 ```java BruteForce 2 0,1,2,3,4,5,6,7,8,9 output.txt```
 output.txt is generated with following content:
-```00
+```
+00
 01
 02
 03
@@ -114,4 +115,5 @@ output.txt is generated with following content:
 96
 97
 98
-99```
+99
+```

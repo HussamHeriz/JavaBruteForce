@@ -12,6 +12,10 @@
 #### **characters:** List of characters eg: 0,1,2,3
 #### **output_file** Destination file to save results to, you can specify the extension or not
 
+### Help
+While program is running you can any time press enter to show completion in percentage
+Or you can write exit then enter to exit the execution
+
 ### Example
 ```java BruteForce 2 0,1,2,3,4,5,6,7,8,9 output.txt```
 output.txt is generated with following content:

@@ -1,0 +1,5 @@
+4 Digits: 0.19 seconds
+5 Digits: 1.04 seconds
+6 Digits: 10.7 seconds
+7 Digits: 1.98 minutes
+8 Digits: 29.6 minutes

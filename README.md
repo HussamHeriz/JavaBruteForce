@@ -12,13 +12,29 @@
 #### **characters:** List of characters eg: 0,1,2,3
 #### **output_file** Destination file to save results to, you can specify the extension or not
 
+### Screenshots
+![abc_2_digits](https://github.com/HussamHeriz/JavaBruteForce/blob/master/screenshots/1.jpg?raw=true)
+![8_digits_0-9](https://github.com/HussamHeriz/JavaBruteForce/blob/master/screenshots/2.jpg?raw=true)
+
+
 ### Help
 While program is running you can any time press enter to show completion in percentage
 Or you can write exit then enter to exit the execution
 
+### Time Elapsed
+#### Using AWS Cloud Computing (EC2 a2.micro) Server
+4 digits of chars 0-9 : 0.19 seconds<br>
+5 digits of chars 0-9 : 1.04 seconds<br>
+6 digits of chars 0-9:  10.7 seconds<br>
+7 digits of chars 0-9:  1.98 minutes<br>
+8 digits of chars 0-9:  29.6 minutes<br>
+
 ### Example
-```java BruteForce 2 0,1,2,3,4,5,6,7,8,9 output.txt```
+```
+java BruteForce 2 0,1,2,3,4,5,6,7,8,9 output.txt
+```
 output.txt is generated with following content:
+
 ```
 00
 01

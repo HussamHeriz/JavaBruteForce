@@ -23,11 +23,12 @@ Or you can write exit then enter to exit the execution
 
 ### Time Elapsed
 #### Using AWS Cloud Computing (EC2 a2.micro) Server
-4 digits of chars 0-9 : 0.19 seconds<br>
-5 digits of chars 0-9 : 1.04 seconds<br>
-6 digits of chars 0-9:  10.7 seconds<br>
-7 digits of chars 0-9:  1.98 minutes<br>
-8 digits of chars 0-9:  29.6 minutes<br>
+
+4 digits of chars 0-9 : 0.01 seconds<br>
+5 digits of chars 0-9 : 0.1 seconds<br>
+6 digits of chars 0-9:  1.2 seconds<br>
+7 digits of chars 0-9:  13.2 seconds<br>
+8 digits of chars 0-9:  96.3 seconds<br>
 
 ### Example
 ```

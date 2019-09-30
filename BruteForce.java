@@ -34,26 +34,31 @@ public class BruteForce {
 
             new Thread( () -> {
                 try {
+                    int charLength = characters.length;
                     String fileName = args[2];
                     fileOut = new PrintStream(fileName);
 
-                    possibilites = (int) Math.pow(characters.length, length);
+                    possibilites = (int) Math.pow(charLength, length);
 
                     long startTime = System.nanoTime();
 
                     for(loopIndex=0;loopIndex < possibilites; loopIndex++)
                     {
 
+                        String toPrint = "";
+
                         for(int j=0; j < length; j++)
                         {
-                            int x = (int) Math.pow(characters.length, length-(j+1));
-                            int index = (loopIndex/x)%characters.length;
-                            fileOut.print(characters[index]);
+                            int x = (int) Math.pow(charLength, length-(j+1));
+                            int index = (loopIndex/x)%charLength;
+                            toPrint += characters[index];
                         }
 
-                        fileOut.println();
+                        fileOut.println(toPrint);
 
                     }
+
+                    fileOut.close();
 
                     long endTime = System.nanoTime();
                     double sndTime = (endTime - startTime) / Math.pow(10,9);
